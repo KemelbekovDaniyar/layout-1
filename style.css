@@ -5,6 +5,73 @@
 body {
   margin: 0;
 }
+/* .container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+[class^="col"] {
+  padding: 0 10px;
+}
+.col-1 {
+  flex: 8.3% 0 0;
+}
+.col-2 {
+  flex: 16.6% 0 0;
+}
+.col-3 {
+  flex: 25% 0 0;
+}
+.col-4 {
+  flex: 33.3% 0 0;
+}
+.col-5 {
+  flex: 41.6% 0 0;
+}
+.col-6 {
+  flex: 50% 0 0;
+}
+.col-7 {
+  flex: 58.3% 0 0;
+}
+.col-8 {
+  flex: 66.6% 0 0;
+}
+.col-9 {
+  flex: 75% 0 0;
+}
+.col-10 {
+  flex: 83% 0 0;
+}
+.col-11 {
+  flex: 91.6% 0 0;
+}
+.col-12 {
+  flex: 100% 0 0;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 5px 5px 10px 0 black;
+  transition: all 100ms ease-in;
+
+  margin-bottom: 15px;
+}
+.card .card-image {
+  width: 100%;
+}
+.card .card-content {
+  padding: 10px 15px;
+}
+.card.card-horizonal {
+  display: flex;
+}
+.card.card-horizonal .card-image {
+  width: 30%;
+} */
 .topbar {
   background-color: white;
   padding: 30px 45px;
@@ -37,4 +104,10 @@ body {
   background-color: #43806c;
   border-radius: 6px;
   border-color: #43806c;
+}
+header {
+  background-image: url(./img/header.png);
+  background-size: contain;
+  height: 675px;
+  max-width: 100%;
 }
