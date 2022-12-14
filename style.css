@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -7,32 +7,36 @@ body {
 }
 .topbar {
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  padding: 35px 45px 34px 45px;
+  padding: 30px 45px;
   display: flex;
 }
 .nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
-
 }
 .logo {
   margin-right: auto;
+  width: 75px;
+  height: 22px;
 }
 .nav .nav-link {
-  color: #214E41;
-  font-family: 'Raleway', sans-serif;
+  color: #214e41;
+  font-family: "Raleway", sans-serif;
   padding: 10px 15px;
   text-decoration: none;
   display: block;
 }
+.nav .language {
+}
 .nav .nav-button {
+  margin-left: 30px;
   padding: 10px 5px;
   color: white;
-  background-color: #43806C;
+  background-color: #43806c;
   border-radius: 6px;
-  border-color: #43806C;
+  border-color: #43806c;
 }
