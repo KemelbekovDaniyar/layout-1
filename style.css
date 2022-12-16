@@ -164,3 +164,12 @@ header button {
   margin: 0 auto;
   height: 432px;
 }
+.container-3 .first {
+  background-color: #E3EEED;
+  height: 640px;
+}
+.container-3 .second {
+  background-color: #214E41;
+  height: 640px;
+  
+}
