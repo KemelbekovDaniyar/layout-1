@@ -109,20 +109,12 @@ header {
   max-width: 100%;
 }
 header h1 {
-  padding-top: 161px;
-  padding-left: 120px;
-  padding-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   color: #214e41;
   margin: 0;
 }
-header span {
-  padding-top: 339px;
-  padding-left: 120px;
-}
 header img {
-  padding-left: 120px;
   display: block;
   width: 280px;
   height: 60px;
@@ -133,6 +125,9 @@ header button {
   border-radius: 0px 6px 6px 0px;
   padding: 20px 35px;
 }
+header .section {
+  align-items: center;
+}
 .container-1 {
   max-width: 1200px;
   margin: 0 auto;
@@ -140,6 +135,8 @@ header button {
   align-items: center;
   box-shadow: 3px 3px 20px black;
   padding-left: 50px;
+  margin-top: -90px;
+  background-color: white;
 }
 .container-1 img {
   float: left;
@@ -164,11 +161,36 @@ header button {
   margin: 0 auto;
   height: 432px;
 }
+.container-3 {
+  height: 640px;
+}
 .container-3 .first {
   background-color: #e3eeed;
-  height: 640px;
 }
 .container-3 .second {
   background-color: #214e41;
-  height: 640px;
+}
+
+header .section {
+  justify-content: flex-end;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 400px;
+}
+
+.header-section input {
+  width: 280px;
+  height: 60px;
+  border: 0;
+
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.header-section button {
+  border: 0;
+  height: 60px;
 }
