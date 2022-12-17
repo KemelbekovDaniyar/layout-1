@@ -138,7 +138,7 @@ header button {
   border-color: #43806c;
   border-radius: 0px 6px 6px 0px;
   padding: 20px 35px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
@@ -218,19 +218,19 @@ header .section {
   line-height: 20px;
   letter-spacing: 0.05000000074505806px;
   text-align: left;
-  color: #43806C;
+  color: #43806c;
 }
 .container-2 .box-1 h1 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 46px;
   letter-spacing: 0em;
   text-align: left;
-  color: #214E41;
+  color: #214e41;
 }
 .container-2 .box-1 p {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -239,13 +239,13 @@ header .section {
   color: #757575;
 }
 .container-2 .box-1 a {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0.019999999552965164px;
   text-align: center;
-  color: #214E41;
+  color: #214e41;
 }
 .container-2 .box-1 {
   height: 358px;
@@ -254,13 +254,40 @@ header .section {
   top: 37px;
   border-radius: 0px;
 }
-
 .container-2 .box-2 {
   height: 364px;
   width: 510px;
   left: 0px;
   top: 36px;
   border-radius: 0px;
+}
+.container-2 .box-2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #214E41;
+}
+.container-2 .box-2 p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}
+.container-2 .box-2 a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  text-decoration-line: underline;
+  color: #214e41;
 }
 .container-3 {
   height: 640px;
