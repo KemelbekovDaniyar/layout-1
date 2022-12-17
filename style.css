@@ -69,6 +69,8 @@ body {
 .card.card-horizonal .card-image {
   width: 30%;
 }
+
+
 .topbar {
   background-color: white;
   padding: 30px 45px;
@@ -100,19 +102,33 @@ body {
   color: white;
   background-color: #43806c;
   border-radius: 6px;
-  border-color: #43806c;
+  border: 0;
 }
 header {
   background-image: url(./img/header.png);
   background-size: contain;
+  background-repeat: no-repeat;
   height: 675px;
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   color: #214e41;
-  margin: 0;
+  margin-bottom: 80px;
+}
+header span {
+  margin-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: #214e41;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 header img {
   display: block;
@@ -124,9 +140,21 @@ header button {
   border-color: #43806c;
   border-radius: 0px 6px 6px 0px;
   padding: 20px 35px;
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
 }
 header .section {
   align-items: center;
+  max-width: 1170px;
+  width: 100%;
+}
+header .header-section {
+  margin-top: 30px;
 }
 .container-1 {
   max-width: 1200px;
