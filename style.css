@@ -49,7 +49,6 @@ body {
 .col-12 {
   flex: 100% 0 0;
 }
-
 .card {
   background-color: white;
   box-shadow: 5px 5px 10px 0 black;
@@ -69,7 +68,6 @@ body {
 .card.card-horizonal .card-image {
   width: 30%;
 }
-
 
 .topbar {
   background-color: white;
@@ -118,7 +116,7 @@ header h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   color: #214e41;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 header span {
   margin-bottom: 5px;
@@ -156,6 +154,30 @@ header .section {
 header .header-section {
   margin-top: 30px;
 }
+header .section {
+  justify-content: flex-end;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 400px;
+}
+
+.header-section input {
+  width: 280px;
+  height: 60px;
+  border: 0;
+
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.header-section button {
+  border: 0;
+  height: 60px;
+}
+
 .container-1 {
   max-width: 1200px;
   margin: 0 auto;
@@ -189,6 +211,56 @@ header .header-section {
   margin: 0 auto;
   height: 432px;
 }
+.container-2 .box-1 span {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.05000000074505806px;
+  text-align: left;
+  color: #43806C;
+}
+.container-2 .box-1 h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #214E41;
+}
+.container-2 .box-1 p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.019999999552965164px;
+  text-align: left;
+  color: #757575;
+}
+.container-2 .box-1 a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.019999999552965164px;
+  text-align: center;
+  color: #214E41;
+}
+.container-2 .box-1 {
+  height: 358px;
+  width: 510px;
+  left: 60px;
+  top: 37px;
+  border-radius: 0px;
+}
+.container-2 .box-2 {
+  height: 364px;
+  width: 510px;
+  left: 0px;
+  top: 36px;
+  border-radius: 0px;
+}
 .container-3 {
   height: 640px;
 }
@@ -197,28 +269,4 @@ header .header-section {
 }
 .container-3 .second {
   background-color: #214e41;
-}
-
-header .section {
-  justify-content: flex-end;
-}
-
-.header-section {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  max-width: 400px;
-}
-
-.header-section input {
-  width: 280px;
-  height: 60px;
-  border: 0;
-
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-}
-.header-section button {
-  border: 0;
-  height: 60px;
 }
