@@ -373,7 +373,7 @@ header .section {
   top: 1169px;
   border-radius: 0px;
 }
-/* .container-3 {
+.container-3 {
   height: 640px;
 }
 .container-3 .first {
@@ -381,4 +381,4 @@ header .section {
 }
 .container-3 .second {
   background-color: #214e41;
-} */
+}
