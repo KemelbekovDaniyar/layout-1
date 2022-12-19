@@ -159,9 +159,13 @@ header {
   background-image: url(./img/header.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   height: 675px;
-  max-width: 100%;
-  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;  
+  color: #214e41;
 }
 header h1 {
   font-family: "Roboto", sans-serif;
@@ -200,9 +204,9 @@ header button {
   height: 60px;
 }
 header .section {
-  position: relative;
-  top: 161px;
-  left: 90px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 header .header-section {
   margin-top: 30px;
@@ -226,48 +230,6 @@ header .section {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
-@media screen and (max-width:900px) {
-  header .section {
-    position: relative;
-    top: 30px;
-    left: 35px;
-  }
-  header h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    color: #214e41;
-    margin-bottom: 18px;
-  }
-  header span {
-    margin-bottom: 5px;
-    font-family: "Raleway", sans-serif;
-    color: #214e41;
-    font-size: 8px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  header button {
-    background-color: #43806c;
-    border-color: #43806c;
-    border-radius: 0px 6px 6px 0px;
-    /* padding: 20px 35px; */
-    font-family: "Raleway", sans-serif;
-    font-size: 7px;
-    letter-spacing: 0em;
-    color: white;
-    border: 0;
-    height: 20px;
-  }
-  .header-section input {
-    width: 60px;
-    height: 20px;
-    border: 0;
-  
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-  }
-}
-/* 
 .container-1 {
   max-width: 1200px;
   margin: 0 auto;
@@ -295,6 +257,19 @@ header .section {
   font-size: 14px;
   margin: 0;
 }
+@media screen and (max-width:900px) {
+  .container-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 171px;
+    align-items: center;
+    box-shadow: 3px 3px 20px black;
+    padding-left: 50px;
+    margin-top: -90px;
+    background-color: white;
+  }
+}
+/* 
 .container-2 {
   padding-top: 50px;
   max-width: 1200px;
