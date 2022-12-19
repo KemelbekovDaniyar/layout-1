@@ -375,6 +375,7 @@ header .section {
 }
 .container-3 {
   height: 640px;
+  margin-top: 120px;
 }
 .container-3 .first {
   background-color: #e3eeed;
@@ -386,13 +387,32 @@ header .section {
   align-items: flex-start;
 }
 .container-3 .first span {
-
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #214E41;
 }
 .container-3 .first h1 {
-
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #214E41;
 }
 .container-3 .first p {
-  
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #43806C;
 }
 .container-3 .second {
   background-color: #214e41;
