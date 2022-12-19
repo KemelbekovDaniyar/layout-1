@@ -365,7 +365,14 @@ header .section {
   flex-wrap: wrap;
   align-items: flex-end;
 }
-
+.container-2 .protsent .palka {
+  position: absolute;
+  height: 2px;
+  width: 512px;
+  left: 691px;
+  top: 1169px;
+  border-radius: 0px;
+}
 /* .container-3 {
   height: 640px;
 }
