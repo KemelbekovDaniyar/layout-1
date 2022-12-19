@@ -330,7 +330,7 @@ header .section {
   line-height: 90px;
   letter-spacing: 0em;
   text-align: left;
-  color: #214E41;
+  color: #214e41;
 }
 .container-2 .box-2 p {
   font-family: "Raleway";
@@ -378,6 +378,12 @@ header .section {
 }
 .container-3 .first {
   background-color: #e3eeed;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .container-3 .second {
   background-color: #214e41;
