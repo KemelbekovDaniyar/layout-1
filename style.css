@@ -387,33 +387,47 @@ header .section {
   align-items: flex-start;
 }
 .container-3 .first span {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0.05px;
   text-transform: uppercase;
-  color: #214E41;
+  color: #214e41;
 }
 .container-3 .first h1 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
-  color: #214E41;
+  color: #214e41;
 }
 .container-3 .first p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 32px;
   line-height: 42px;
-  color: #43806C;
+  color: #43806c;
 }
 .container-3 .second {
   background-color: #214e41;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-3 .second p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.02px;
+  color: #ffffff;
 }
