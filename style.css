@@ -317,6 +317,7 @@ header .section {
 }
 .container-2 .box-2 {
   height: 364px;
+  display: flex;
   width: 510px;
   left: 0px;
   top: 36px;
@@ -349,6 +350,20 @@ header .section {
   letter-spacing: 0.02px;
   text-decoration-line: underline;
   color: #214e41;
+}
+.container-2 .box-2 span {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+}
+.container-2 .box-2 .protsent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 /* .container-3 {
