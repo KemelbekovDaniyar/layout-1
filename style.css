@@ -385,6 +385,15 @@ header .section {
   justify-content: center;
   align-items: flex-start;
 }
+.container-3 .first span {
+
+}
+.container-3 .first h1 {
+
+}
+.container-3 .first p {
+  
+}
 .container-3 .second {
   background-color: #214e41;
 }
