@@ -464,3 +464,26 @@ header .section {
   letter-spacing: 0.02px;
   color: #757575;
 }
+.container-5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.container-5 .box h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #f0a446;
+}
+.container-5 .box p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+
+  color: #214e41;
+}
