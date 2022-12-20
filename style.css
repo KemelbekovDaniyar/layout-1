@@ -431,3 +431,8 @@ header .section {
   letter-spacing: 0.02px;
   color: #ffffff;
 }
+.container-4 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
