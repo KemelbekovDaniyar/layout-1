@@ -534,3 +534,10 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
+.header-1 {
+  background-image: url(./img/header2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 490px;
+}
