@@ -587,3 +587,11 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
+.container-7 {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-7 .box {
+  justify-content: space-around;
+}
