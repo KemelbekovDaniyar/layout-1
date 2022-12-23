@@ -533,7 +533,7 @@ header .section {
 .section-7 {
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
+  margin-top: 120px;
 }
 .section-7 .box {
   justify-content: space-around;
