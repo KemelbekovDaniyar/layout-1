@@ -270,6 +270,7 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   height: 432px;
+  margin-top: 120px;
 }
 .section-2 .box-1 span {
   font-family: "Raleway", sans-serif;
@@ -312,64 +313,6 @@ header .section {
   width: 510px;
   left: 60px;
   top: 37px;
-  border-radius: 0px;
-}
-.section-2 .box-2 {
-  height: 364px;
-  display: flex;
-  width: 510px;
-  left: 0px;
-  top: 36px;
-  border-radius: 0px;
-}
-.section-2 .box-2 h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 90px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #214e41;
-}
-.section-2 .box-2 p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 22px;
-  letter-spacing: 0.02px;
-  color: #214e41;
-}
-.section-2 .box-2 a {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 22px;
-  letter-spacing: 0.02px;
-  text-decoration-line: underline;
-  color: #214e41;
-}
-.section-2 .box-2 span {
-  font-family: Raleway;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-  display: flex;
-}
-.section-2 .box-2 .protsent {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-.section-2 .protsent .palka {
-  position: absolute;
-  height: 2px;
-  width: 512px;
-  left: 691px;
-  top: 1169px;
   border-radius: 0px;
 }
 .section-3 {
