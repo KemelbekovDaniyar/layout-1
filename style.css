@@ -1,71 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap");
-
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
 .col-1 {
   flex: 8.3% 0 0;
 }
-
 .col-2 {
   flex: 16.6% 0 0;
 }
-
 .col-3 {
   flex: 25% 0 0;
 }
-
 .col-4 {
   flex: 33.3% 0 0;
 }
-
 .col-5 {
   flex: 41.6% 0 0;
 }
-
 .col-6 {
   flex: 50% 0 0;
 }
-
 .col-7 {
   flex: 58.3% 0 0;
 }
-
 .col-8 {
   flex: 66.6% 0 0;
 }
-
 .col-9 {
   flex: 75% 0 0;
 }
-
 .col-10 {
   flex: 83% 0 0;
 }
-
 .col-11 {
   flex: 91.6% 0 0;
 }
-
 .col-12 {
   flex: 100% 0 0;
 }
-
 .card {
   background-color: white;
   box-shadow: 5px 5px 10px 0 black;
@@ -73,19 +56,15 @@ body {
 
   margin-bottom: 15px;
 }
-
 .card .card-image {
   width: 100%;
 }
-
 .card .card-content {
   padding: 10px 15px;
 }
-
 .card.card-horizonal {
   display: flex;
 }
-
 .card.card-horizonal .card-image {
   width: 30%;
 }
@@ -95,7 +74,6 @@ body {
   padding: 30px 45px;
   display: flex;
 }
-
 .nav {
   display: flex;
   align-items: center;
@@ -104,13 +82,11 @@ body {
   margin: 0;
   list-style: none;
 }
-
 .logo {
   margin-right: auto;
   width: 75px;
   height: 22px;
 }
-
 .nav .nav-link {
   color: #214e41;
   font-family: "Raleway", sans-serif;
@@ -123,18 +99,15 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 .nav .nav-link:hover {
   background-color: #43806c;
   color: white;
   border-radius: 6px;
   border: 0;
 }
-
 .topbar .nav-btn {
   display: none;
 }
-
 .nav .nav-button {
   margin: 0 20px 0 35px;
   padding: 10px 14px;
@@ -146,7 +119,6 @@ body {
   border-radius: 6px;
   border: 0;
 }
-
 @media screen and (max-width: 900px) {
   .topbar .nav-btn {
     font-size: 2em;
@@ -157,11 +129,9 @@ body {
     display: block;
     cursor: pointer;
   }
-
   .nav {
     display: none;
   }
-
   .drop:hover .nav {
     display: block;
     position: absolute;
@@ -169,11 +139,9 @@ body {
     background-color: white;
     box-shadow: 3px 3px 10px black;
   }
-
   .topbar {
     justify-content: space-between;
   }
-
   .nav .nav-button {
     margin: 0 20px 0 35px;
     padding: 10px 14px;
@@ -186,7 +154,6 @@ body {
     border: 0;
   }
 }
-
 header {
   background-image: url(./img/header.png);
   background-size: contain;
@@ -199,14 +166,12 @@ header {
   display: flex;
   color: #214e41;
 }
-
 header h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   color: #214e41;
   margin-bottom: 50px;
 }
-
 header span {
   margin-bottom: 5px;
   font-family: "Raleway", sans-serif;
@@ -217,13 +182,11 @@ header span {
   letter-spacing: 0em;
   text-align: left;
 }
-
 header img {
   display: block;
   width: 280px;
   height: 60px;
 }
-
 header button {
   background-color: #43806c;
   border-color: #43806c;
@@ -239,17 +202,14 @@ header button {
   border: 0;
   height: 60px;
 }
-
 header .section {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
-
 header .header-section {
   margin-top: 30px;
 }
-
 header .section {
   justify-content: flex-end;
 }
@@ -269,7 +229,6 @@ header .section {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
-
 .section-1 {
   max-width: 1200px;
   margin: 0 auto;
@@ -280,7 +239,6 @@ header .section {
   margin-top: -90px;
   background-color: white;
 }
-
 .section-1 .box-1 {
   width: 100%;
   height: 45%;
@@ -290,34 +248,29 @@ header .section {
   flex-direction: column;
   align-content: flex-start;
 }
-
 .section-1 img {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-
 .section-1 h1 {
   font-family: "Raleway", sans-serif;
   color: #214e41;
   font-size: 16px;
   margin: 5px 0;
 }
-
 .section-1 p {
   font-family: "Raleway", sans-serif;
   color: #214e41;
   font-size: 14px;
   margin: 0;
 }
-
 .section-2 {
   padding-top: 50px;
   max-width: 1200px;
   margin: 0 auto;
   height: 432px;
 }
-
 .section-2 .box-1 span {
   font-family: "Raleway", sans-serif;
   font-size: 13px;
@@ -327,7 +280,6 @@ header .section {
   text-align: left;
   color: #43806c;
 }
-
 .section-2 .box-1 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -337,7 +289,6 @@ header .section {
   text-align: left;
   color: #214e41;
 }
-
 .section-2 .box-1 p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -347,7 +298,6 @@ header .section {
   text-align: left;
   color: #757575;
 }
-
 .section-2 .box-1 a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -357,7 +307,6 @@ header .section {
   text-align: center;
   color: #214e41;
 }
-
 .section-2 .box-1 {
   height: 358px;
   width: 510px;
@@ -365,7 +314,6 @@ header .section {
   top: 37px;
   border-radius: 0px;
 }
-
 .section-2 .box-2 {
   height: 364px;
   display: flex;
@@ -374,7 +322,6 @@ header .section {
   top: 36px;
   border-radius: 0px;
 }
-
 .section-2 .box-2 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 70px;
@@ -384,7 +331,6 @@ header .section {
   text-align: left;
   color: #214e41;
 }
-
 .section-2 .box-2 p {
   font-family: "Raleway";
   font-style: normal;
@@ -394,7 +340,6 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
-
 .section-2 .box-2 a {
   font-family: "Raleway";
   font-style: normal;
@@ -405,7 +350,6 @@ header .section {
   text-decoration-line: underline;
   color: #214e41;
 }
-
 .section-2 .box-2 span {
   font-family: Raleway;
   font-size: 13px;
@@ -415,13 +359,11 @@ header .section {
   text-align: center;
   display: flex;
 }
-
 .section-2 .box-2 .protsent {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
 }
-
 .section-2 .protsent .palka {
   position: absolute;
   height: 2px;
@@ -430,12 +372,10 @@ header .section {
   top: 1169px;
   border-radius: 0px;
 }
-
 .section-3 {
   height: 640px;
   margin-top: 120px;
 }
-
 .section-3 .first {
   background-color: #e3eeed;
   display: flex;
@@ -445,7 +385,6 @@ header .section {
   justify-content: center;
   align-items: flex-start;
 }
-
 .section-3 .first span {
   font-family: "Raleway";
   font-style: normal;
@@ -456,7 +395,6 @@ header .section {
   text-transform: uppercase;
   color: #214e41;
 }
-
 .section-3 .first h1 {
   font-family: "Roboto";
   margin-bottom: 0;
@@ -466,7 +404,6 @@ header .section {
   line-height: 42px;
   color: #214e41;
 }
-
 .section-3 .first p {
   font-family: "Roboto";
   font-style: normal;
@@ -476,7 +413,6 @@ header .section {
   line-height: 42px;
   color: #43806c;
 }
-
 .section-3 .second {
   background-color: #214e41;
   display: flex;
@@ -485,7 +421,6 @@ header .section {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .section-3 .second p {
   font-family: "Raleway";
   font-style: normal;
@@ -495,14 +430,12 @@ header .section {
   letter-spacing: 0.02px;
   color: #ffffff;
 }
-
 .section-4 {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
 }
-
-.section-4 .first span {
+.section-4  .first span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -512,7 +445,6 @@ header .section {
   text-transform: uppercase;
   color: #43806c;
 }
-
 .section-4 .first h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -522,8 +454,7 @@ header .section {
   color: #214e41;
   margin-bottom: 50px;
 }
-
-.section-4 .first p {
+.section-4  .first p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -532,14 +463,12 @@ header .section {
   letter-spacing: 0.02px;
   color: #757575;
 }
-
 .section-5 {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
   justify-content: center;
 }
-
 .section-5 .box h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -548,8 +477,7 @@ header .section {
   line-height: 78px;
   color: #f0a446;
 }
-
-.section-5 .box p {
+.section-5  .box p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -558,21 +486,17 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
-
 .section-6 {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
 }
-
 .section-6 img {
   margin-left: 120px;
 }
-
 .section-6 .box {
   margin-left: 223px;
 }
-
 .section-6 .box span {
   font-family: "Raleway";
   font-style: normal;
@@ -583,7 +507,6 @@ header .section {
   text-transform: uppercase;
   color: #43806c;
 }
-
 .section-6 .box h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -592,7 +515,6 @@ header .section {
   line-height: 46px;
   color: #214e41;
 }
-
 .section-6 .box p {
   font-family: "Raleway";
   font-style: normal;
@@ -602,7 +524,6 @@ header .section {
   letter-spacing: 0.02px;
   color: #757575;
 }
-
 .section-6 .box a {
   font-family: "Raleway";
   font-style: normal;
@@ -613,7 +534,6 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
-
 .header-1 {
   background-image: url(./img/header2.jpg);
   background-size: contain;
@@ -622,7 +542,6 @@ header .section {
   height: 490px;
   display: flex;
 }
-
 .header-1 .box {
   max-width: 500px;
   display: flex;
@@ -631,7 +550,6 @@ header .section {
   justify-content: center;
   margin-left: 100px;
 }
-
 .header-1 span {
   font-family: "Raleway";
   font-style: normal;
@@ -642,7 +560,6 @@ header .section {
   text-transform: uppercase;
   color: #43806c;
 }
-
 .header-1 h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -651,7 +568,6 @@ header .section {
   line-height: 46px;
   color: #214e41;
 }
-
 .header-1 p {
   font-family: "Raleway";
   font-style: normal;
@@ -661,7 +577,6 @@ header .section {
   letter-spacing: 0.02px;
   color: #757575;
 }
-
 .header-1 a {
   font-family: "Raleway";
   font-style: normal;
@@ -672,13 +587,11 @@ header .section {
   letter-spacing: 0.02px;
   color: #214e41;
 }
-
 .section-7 {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
-
 .section-7 .box {
   justify-content: space-around;
 }
