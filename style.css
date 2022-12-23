@@ -535,6 +535,10 @@ header .section {
   margin: 0 auto;
   margin-top: 120px;
 }
+.section-7 h1 {
+  text-align: center;
+}
 .section-7 .box {
   justify-content: space-around;
+  margin-top: 115px;
 }
