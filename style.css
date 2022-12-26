@@ -549,7 +549,7 @@ header .section {
   color: #214e41;
 }
 
-.header-1 {
+.section-10 {
   background-image: url(./img/header2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -558,7 +558,7 @@ header .section {
   display: flex;
 }
 
-.header-1 .box {
+.section-10 .box {
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -567,7 +567,7 @@ header .section {
   margin-left: 100px;
 }
 
-.header-1 span {
+.section-10 span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -578,7 +578,7 @@ header .section {
   color: #43806c;
 }
 
-.header-1 h1 {
+.section-10 h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -587,7 +587,7 @@ header .section {
   color: #214e41;
 }
 
-.header-1 p {
+.section-10 p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -597,7 +597,7 @@ header .section {
   color: #757575;
 }
 
-.header-1 a {
+.section-10 a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
