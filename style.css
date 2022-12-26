@@ -714,6 +714,8 @@ footer .content {
 footer .box-1 {
   display: flex;
   justify-content: space-between;
+  padding-top: 100px;
+  border-bottom: 1px solid white;
 }
 
 footer .con-1 {
@@ -745,4 +747,23 @@ footer .con-1 h1 {
   color: #FFFFFF;
 }
 
-footer .con-2 []
+footer .con-2 h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+footer .con-2 p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  color: #FFFFFF;
+}
