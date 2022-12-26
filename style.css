@@ -701,20 +701,48 @@ header .section {
   color: #FFFFFF;
 
 }
+
 footer {
   background-color: #214E41;
 }
+
 footer .content {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 footer .box-1 {
   display: flex;
   justify-content: space-between;
 }
+
 footer .con-1 {
   display: flex;
 }
-footer .con-2 [
-  
-]
+
+footer .con-1 a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer .con-1 li {
+  list-style-type: none;
+}
+
+footer .con-1 h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+footer .con-2 []
