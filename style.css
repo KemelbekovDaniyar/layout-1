@@ -371,6 +371,7 @@ header .section {
 .section-3 .first {
   background-color: #e3eeed;
   display: flex;
+  height: 640px;
   flex-wrap: wrap;
   align-content: center;
   flex-direction: column;
@@ -416,6 +417,7 @@ header .section {
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
+  height: 640px;
 }
 
 .section-3 .second p {
