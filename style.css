@@ -167,6 +167,7 @@ header {
   background-image: url(./img/header.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 675px;
   align-items: center;
   display: flex;
@@ -246,13 +247,12 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   height: 171px;
-  align-items: center;
   box-shadow: 3px 3px 20px black;
-  padding-left: 50px;
   margin-top: -90px;
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .section-1 .box-1 {
@@ -278,7 +278,9 @@ header .section {
   font-size: 14px;
   margin: 0;
 }
-
+@media screen {
+  
+}
 .section-2 {
   padding-top: 50px;
   max-width: 1200px;
