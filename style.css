@@ -309,11 +309,18 @@ header .section {
 }
 
 .section-2 {
-  padding-top: 50px;
   max-width: 1200px;
   margin: 0 auto;
   height: 432px;
   margin-top: 120px;
+}
+
+.section-2 .box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
 }
 
 .section-2 .box-1 span {
@@ -356,13 +363,7 @@ header .section {
   color: #214e41;
 }
 
-.section-2 .box-1 {
-  height: 358px;
-  width: 510px;
-  left: 60px;
-  top: 37px;
-  border-radius: 0px;
-}
+.section-2 .box-1 {}
 
 .section-3 {
   height: 640px;
