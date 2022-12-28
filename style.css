@@ -255,6 +255,11 @@ header .section {
   justify-content: center;
 }
 
+.section-1 .box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section-1 .box-1 {
   width: 358px;
 }
@@ -278,9 +283,31 @@ header .section {
   font-size: 14px;
   margin: 0;
 }
-@media screen {
-  
+
+@media screen and (max-width:900px) {
+  .section-1 {
+
+    height: 270px;
+    box-shadow: 3px 3px 20px black;
+    margin-top: -90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-1 .box-1 {
+    box-shadow: 1px 1px 8px;
+    padding: 5px 5px;
+    margin: 5px;
+  }
+
+  .section-1 .box {
+    justify-content: center;
+    max-width: 370px;
+  }
 }
+
 .section-2 {
   padding-top: 50px;
   max-width: 1200px;
@@ -640,9 +667,11 @@ header .section {
   align-items: center;
   width: 629px;
 }
+
 .section-9 .img-box {
   height: 577px;
 }
+
 .section-9 .coment {
   display: flex;
   max-width: 423px;
