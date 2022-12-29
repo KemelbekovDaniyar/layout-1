@@ -496,6 +496,7 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
+  height: 500px;
 }
 
 .section-6 img {
@@ -503,7 +504,6 @@ header .section {
 }
 
 .section-6 .box {
-  margin-left: 223px;
   width: 500px;
 }
 
