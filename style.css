@@ -550,7 +550,7 @@ header .section {
 
 .section-10 {
   background-image: url(./img/header2.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 490px;
