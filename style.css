@@ -376,7 +376,6 @@ header .section {
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .section-3 .first span {
@@ -632,6 +631,13 @@ header .section {
 
 .section-8 {
   margin-top: 120px;
+}
+.section-8 .box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .section-8 h1 {
