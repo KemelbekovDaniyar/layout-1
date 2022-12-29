@@ -670,11 +670,13 @@ header .section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 629px;
+  width: 100%;
+  max-width: 629px;
 }
 
-.section-9 .img-box {
-  height: 577px;
+.section-9 .img-box img {
+  width: 100%;
+  height: 100%;
 }
 
 .section-9 .coment {
