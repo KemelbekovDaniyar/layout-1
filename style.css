@@ -748,6 +748,7 @@ footer .box-1 {
   justify-content: space-between;
   padding-top: 100px;
   border-bottom: 1px solid white;
+  flex-wrap: wrap;
 }
 
 footer .box-1 .con-1 {
