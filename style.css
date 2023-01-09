@@ -313,13 +313,11 @@ header .section {
 .section-2 {
   max-width: 1200px;
   margin: 0 auto;
-  height: 432px;
   margin-top: 120px;
 }
 
 .section-2 .box {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-content: stretch;
