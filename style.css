@@ -840,6 +840,7 @@ footer .box-2 .con-2 {
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer .box-2 .con-2 p {
