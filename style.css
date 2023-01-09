@@ -754,6 +754,7 @@ footer .box-1 {
 footer .box-1 .con-1 {
   display: flex;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 footer .con-1 a {
