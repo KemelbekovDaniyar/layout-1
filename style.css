@@ -651,6 +651,10 @@ header .section {
   margin: 0 auto;
 }
 
+.section-8 img {
+  width: 100%;
+}
+
 .section-8 h1 {
   font-family: 'Roboto';
   font-style: normal;
