@@ -647,7 +647,7 @@ header .section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 351px;
   margin: 0 auto;
 }
 
