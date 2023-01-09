@@ -284,7 +284,7 @@ header .section {
   margin: 0;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1089px) {
   .section-1 {
 
     height: 270px;
@@ -300,6 +300,8 @@ header .section {
     box-shadow: 1px 1px 8px;
     padding: 5px 5px;
     margin: 5px;
+    width: 100%;
+    display: flex;
   }
 
   .section-1 .box {
@@ -828,25 +830,23 @@ footer .box-1 .con-2 p {
   letter-spacing: 0.02px;
   color: #FFFFFF;
 }
+@media screen and (max-width:372px){
+  
+footer .box-1 .con-2 .bu {
+  float: right;
+  height: 30px;
+}
 
-@media screen and (max-width:372px) {
-
-  footer .box-1 .con-2 .bu {
-    float: right;
-    height: 30px;
-  }
-
-  footer input {
-    background: #214E41;
-    height: 30px;
-    width: 100px;
-    border: 1px solid white;
-    margin-bottom: 30px;
-  }
+footer input {
+  background: #214E41;
+  height: 30px;
+  width: 100px;
+  border: 1px solid white;
+  margin-bottom: 30px;
+}
 
 
 }
-
 footer .box-2 .con-1 {
   margin-top: 73px;
 }
