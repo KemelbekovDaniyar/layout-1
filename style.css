@@ -503,15 +503,20 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
-  height: 500px;
 }
 
 .section-6 img {
   margin-left: 120px;
+  width: 100%;
 }
 
+@media screen and (max-width:500px) {
+  .section-6 img {
+    margin: 0;
+  }
+}
 .section-6 .box {
-  width: 500px;
+  width: 100%;
 }
 
 .section-6 .box span {
