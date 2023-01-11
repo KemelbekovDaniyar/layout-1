@@ -577,6 +577,16 @@ header .section {
   justify-content: center;
   margin-left: 100px;
 }
+@media  screen and (max-width:600px) {
+  .section-10 .box {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+  }
+}
 
 .section-10 span {
   font-family: "Raleway";
