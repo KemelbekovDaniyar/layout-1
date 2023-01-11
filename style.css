@@ -89,7 +89,7 @@ body {
 }
 
 .nav .nav-link {
-  
+
   color: #214e41;
   font-family: "Raleway", sans-serif;
   padding: 10px 25px;
@@ -460,9 +460,11 @@ header .section {
   color: #214e41;
   margin-bottom: 50px;
 }
+
 .section-4 img {
   width: 100%;
 }
+
 .section-4 .first p {
   font-family: "Raleway";
   font-style: normal;
@@ -515,6 +517,7 @@ header .section {
     margin: 0;
   }
 }
+
 .section-6 .box {
   width: 100%;
 }
@@ -577,7 +580,8 @@ header .section {
   justify-content: center;
   margin-left: 100px;
 }
-@media  screen and (max-width:600px) {
+
+@media screen and (max-width:600px) {
   .section-10 .box {
     max-width: 300px;
     display: flex;
