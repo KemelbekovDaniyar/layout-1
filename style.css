@@ -460,7 +460,9 @@ header .section {
   color: #214e41;
   margin-bottom: 50px;
 }
-
+.section-4 img {
+  width: 100%;
+}
 .section-4 .first p {
   font-family: "Raleway";
   font-style: normal;
