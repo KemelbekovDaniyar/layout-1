@@ -376,7 +376,6 @@ header .section {
   background-color: #e3eeed;
   display: flex;
   height: 640px;
-  flex-wrap: wrap;
   align-content: center;
   flex-direction: column;
   justify-content: center;
