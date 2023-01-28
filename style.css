@@ -102,7 +102,7 @@ body {
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  
+
 }
 
 .nav .nav-link:hover {
@@ -381,9 +381,10 @@ header .section {
   background-color: #e3eeed;
   display: flex;
   height: 640px;
+  flex-wrap: wrap;
   align-content: center;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
 }
 
 .section-3 .first span {
@@ -513,6 +514,8 @@ header .section {
 .section-6 img {
   margin-left: 120px;
   width: 100%;
+  max-width: 296px;
+  height: 100%;
 }
 
 @media screen and (max-width:500px) {
