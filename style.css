@@ -291,22 +291,27 @@ header .section {
 
 @media screen and (max-width:1089px) {
   .section-1 {
-
-    height: 270px;
+    height: 400px;
     box-shadow: 3px 3px 20px black;
     margin-top: -90px;
     background-color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   .section-1 .box-1 {
     box-shadow: 1px 1px 8px;
     padding: 5px 5px;
-    width: 100%;
+    width: 360px;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100px;
+    align-items: center;
+    margin: 5px;
   }
+
 
   .section-1 .box {
     justify-content: center;
