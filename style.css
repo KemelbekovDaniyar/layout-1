@@ -375,6 +375,11 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items: center;
 }
 
 .section-2 .box {
@@ -386,6 +391,7 @@ header .section {
 
 
 .section-2 img {
+  width: 510px;
   width: 100%;
 }
 
