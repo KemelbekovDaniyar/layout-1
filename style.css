@@ -105,6 +105,11 @@ body {
 
 }
 
+.drop {
+  display: flex;
+  align-items: center;
+}
+
 .nav .nav-link:hover {
   background-color: #43806c;
   color: white;
@@ -116,7 +121,7 @@ body {
   display: none;
 }
 
-.nav .nav-button {
+.topbar .nav-button {
   margin: 0 20px 0 35px;
   padding: 10px 14px;
   font-size: 16px;
@@ -139,14 +144,15 @@ body {
     cursor: pointer;
   }
 
-  .nav {
+  .nav, .nav-button, .language, .login {
     display: none;
   }
-
+  
   .drop:hover .nav {
     display: block;
     position: absolute;
-    right: 1px;
+    right: 7px;
+    top: 10px;
     background-color: white;
     box-shadow: 3px 3px 10px black;
   }
@@ -155,10 +161,10 @@ body {
     justify-content: space-between;
   }
 
-  .nav .nav-button {
+  .topbar .nav-button {
     margin: 0 20px 0 35px;
     padding: 10px 14px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     color: white;
@@ -166,6 +172,7 @@ body {
     border-radius: 6px;
     border: 0;
   }
+  
 }
 
 header {
@@ -355,7 +362,7 @@ header .section {
   .section-1 .box-1 {
     box-shadow: 1px 1px 8px;
     padding: 5px 5px;
-    width: 360px;
+    width: 290px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -377,7 +384,6 @@ header .section {
   margin-top: 120px;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-around;
   align-items: center;
 }
@@ -436,7 +442,6 @@ header .section {
 }
 
 .section-3 {
-  height: 640px;
   margin-top: 120px;
 }
 
