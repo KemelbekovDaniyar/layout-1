@@ -100,7 +100,6 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
 
 }
@@ -202,7 +201,6 @@ header span {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -221,7 +219,6 @@ header button {
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
   color: white;
   border: 0;
@@ -278,7 +275,6 @@ header .section {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -298,7 +294,6 @@ header .section {
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
     color: white;
     border: 0;
@@ -430,7 +425,6 @@ header .section {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0.05000000074505806px;
   text-align: left;
   color: #43806c;
 }
@@ -450,7 +444,6 @@ header .section {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: 0.019999999552965164px;
   text-align: left;
   color: #757575;
 }
@@ -460,7 +453,6 @@ header .section {
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
-  letter-spacing: 0.019999999552965164px;
   text-align: center;
   color: #214e41;
 }
@@ -526,7 +518,6 @@ header .section {
   font-weight: 400;
   font-size: 20px;
   line-height: 34px;
-  letter-spacing: 0.02px;
   color: #ffffff;
 }
 
@@ -546,7 +537,6 @@ header .section {
   font-weight: 700;
   font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #43806c;
 }
@@ -577,7 +567,6 @@ header .section {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  letter-spacing: 0.02px;
   color: #757575;
 }
 
@@ -604,7 +593,6 @@ header .section {
   font-weight: 700;
   font-size: 13px;
   line-height: 22px;
-  letter-spacing: 0.02px;
   color: #214e41;
 }
 
@@ -638,7 +626,6 @@ header .section {
   font-weight: 900;
   font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #43806c;
 }
@@ -658,7 +645,6 @@ header .section {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  letter-spacing: 0.02px;
   color: #757575;
 }
 
@@ -669,7 +655,6 @@ header .section {
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-  letter-spacing: 0.02px;
   color: #214e41;
 }
 
@@ -719,7 +704,6 @@ header .section {
   font-weight: 700;
   font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #43806c;
 }
@@ -739,7 +723,6 @@ header .section {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  letter-spacing: 0.02px;
   color: #757575;
 }
 
@@ -750,7 +733,6 @@ header .section {
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-  letter-spacing: 0.02px;
   color: #214e41;
 }
 
@@ -823,7 +805,6 @@ header .section {
   font-weight: 400;
   font-size: 11px;
   line-height: 18px;
-  letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #43806C;
 }
@@ -882,7 +863,6 @@ header .section {
   font-size: 13px;
   line-height: 21px;
   text-align: center;
-  letter-spacing: 0.02px;
   color: #FFFFFF;
 
 }
@@ -944,7 +924,6 @@ footer .con-1 h1 {
   font-weight: 700;
   font-size: 13px;
   line-height: 24px;
-  letter-spacing: 0.02px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
@@ -961,7 +940,6 @@ footer .con-2 h1 {
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
-  letter-spacing: 0.02px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -972,7 +950,6 @@ footer .box-1 .con-2 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.02px;
   color: #FFFFFF;
 }
 
@@ -1004,7 +981,6 @@ footer .box-2 .con-1 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.02px;
   color: #FFFFFF;
   margin: 24px 0;
 }
@@ -1022,6 +998,5 @@ footer .box-2 .con-2 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.02px;
   color: #FFFFFF;
 }
