@@ -234,6 +234,25 @@ header .section {
   margin: 0 auto;
 }
 
+.topbar .login {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #214E41;
+  margin-right: 10px;
+}
+
+.topbar .language {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #214E41;
+}
+
 @media screen and (max-width: 700px) {
   header .section {
     max-width: 1200px;
