@@ -144,10 +144,13 @@ body {
     cursor: pointer;
   }
 
-  .nav, .nav-button, .language, .login {
+  .nav,
+  .nav-button,
+  .language,
+  .login {
     display: none;
   }
-  
+
   .drop:hover .nav {
     display: block;
     position: absolute;
@@ -172,7 +175,7 @@ body {
     border-radius: 6px;
     border: 0;
   }
-  
+
 }
 
 header {
@@ -368,7 +371,9 @@ header .section {
     align-content: center;
     height: 100px;
     align-items: center;
-    margin: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+
   }
 
 
@@ -512,6 +517,10 @@ header .section {
   margin-top: 120px;
 }
 
+.section-4 .first {
+  width: 550px;
+}
+
 .section-4 .first span {
   font-family: "Raleway";
   font-style: normal;
@@ -521,6 +530,12 @@ header .section {
   letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #43806c;
+}
+
+.section-4 .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .section-4 .first h1 {
@@ -551,7 +566,8 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-5 .box h1 {
@@ -589,6 +605,7 @@ header .section {
 @media screen and (max-width:500px) {
   .section-6 img {
     margin: 0;
+    width: 300px;
   }
 }
 
@@ -664,6 +681,17 @@ header .section {
     justify-content: center;
     margin: 0;
   }
+
+  .section-7 .box {
+    justify-content: space-around;
+    margin-top: 115px;
+  }
+
+  .section-7 .article img {
+    width: 140px;
+    height: 60px;
+  }
+
 }
 
 .section-10 span {
@@ -753,7 +781,7 @@ header .section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 351px;
+  width: 350px;
   margin: 0 auto;
 }
 
