@@ -324,7 +324,7 @@ header .section {
   border-bottom-left-radius: 7px;
 }
 
-.section-1 {
+.brella-covers {
   max-width: 1200px;
   margin: 0 auto;
   height: 171px;
@@ -336,29 +336,29 @@ header .section {
   justify-content: center;
 }
 
-.section-1 .box {
+.brella-covers .box {
   display: flex;
   flex-wrap: wrap;
 }
 
-.section-1 .box-1 {
+.brella-covers .box-1 {
   width: 358px;
 }
 
-.section-1 img {
+.brella-covers img {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.section-1 h1 {
+.brella-covers h1 {
   font-family: "Raleway", sans-serif;
   color: #214e41;
   font-size: 16px;
   margin: 7px 0;
 }
 
-.section-1 p {
+.brella-covers p {
   font-family: "Raleway", sans-serif;
   color: #214e41;
   font-size: 14px;
@@ -366,7 +366,7 @@ header .section {
 }
 
 @media screen and (max-width:1089px) {
-  .section-1 {
+  .brella-covers {
     height: 400px;
     box-shadow: 3px 3px 20px black;
     margin-top: -90px;
@@ -376,7 +376,7 @@ header .section {
     align-content: center;
   }
 
-  .section-1 .box-1 {
+  .brella-covers .box-1 {
     box-shadow: 1px 1px 8px;
     padding: 5px 5px;
     width: 290px;
@@ -391,13 +391,13 @@ header .section {
   }
 
 
-  .section-1 .box {
+  .brella-covers .box {
     justify-content: center;
     max-width: 370px;
   }
 }
 
-.section-2 {
+.why-brella {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
@@ -407,7 +407,7 @@ header .section {
   align-items: center;
 }
 
-.section-2 .box {
+.why-brella .box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -415,12 +415,12 @@ header .section {
 }
 
 
-.section-2 img {
+.why-brella img {
   width: 510px;
   width: 100%;
 }
 
-.section-2 .box-1 span {
+.why-brella .box-1 span {
   font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -429,7 +429,7 @@ header .section {
   color: #43806c;
 }
 
-.section-2 .box-1 h1 {
+.why-brella .box-1 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -439,7 +439,7 @@ header .section {
   color: #214e41;
 }
 
-.section-2 .box-1 p {
+.why-brella .box-1 p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -448,7 +448,7 @@ header .section {
   color: #757575;
 }
 
-.section-2 .box-1 a {
+.why-brella .box-1 a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -457,11 +457,11 @@ header .section {
   color: #214e41;
 }
 
-.section-3 {
+.brella-brings {
   margin-top: 120px;
 }
 
-.section-3 .first {
+.brella-brings .first {
   background-color: #e3eeed;
   display: flex;
   height: 640px;
@@ -471,7 +471,7 @@ header .section {
   flex-direction: column;
 }
 
-.section-3 .first span {
+.brella-brings .first span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -482,7 +482,7 @@ header .section {
   color: #214e41;
 }
 
-.section-3 .first h1 {
+.brella-brings .first h1 {
   font-family: "Roboto";
   margin-bottom: 0;
   font-style: normal;
@@ -492,7 +492,7 @@ header .section {
   color: #214e41;
 }
 
-.section-3 .first p {
+.brella-brings .first p {
   font-family: "Roboto";
   font-style: normal;
   margin-bottom: 0;
@@ -502,7 +502,7 @@ header .section {
   color: #43806c;
 }
 
-.section-3 .second {
+.brella-brings .second {
   background-color: #214e41;
   display: flex;
   align-items: center;
@@ -512,7 +512,7 @@ header .section {
   height: 640px;
 }
 
-.section-3 .second p {
+.brella-brings .second p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -521,17 +521,17 @@ header .section {
   color: #ffffff;
 }
 
-.section-4 {
+.one-plan {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
 }
 
-.section-4 .first {
+.one-plan .first {
   width: 550px;
 }
 
-.section-4 .first span {
+.one-plan .first span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -541,13 +541,13 @@ header .section {
   color: #43806c;
 }
 
-.section-4 .box {
+.one-plan .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.section-4 .first h1 {
+.one-plan .first h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -557,11 +557,11 @@ header .section {
   margin-bottom: 50px;
 }
 
-.section-4 img {
+.one-plan img {
   width: 100%;
 }
 
-.section-4 .first p {
+.one-plan .first p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -570,7 +570,7 @@ header .section {
   color: #757575;
 }
 
-.section-5 {
+.money {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
@@ -578,7 +578,7 @@ header .section {
   flex-wrap: wrap;
 }
 
-.section-5 .box h1 {
+.money .box h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -587,7 +587,7 @@ header .section {
   color: #f0a446;
 }
 
-.section-5 .box p {
+.money .box p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -596,13 +596,13 @@ header .section {
   color: #214e41;
 }
 
-.section-6 {
+.video {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
 }
 
-.section-6 img {
+.video img {
   margin-left: 120px;
   width: 100%;
   max-width: 296px;
@@ -610,17 +610,17 @@ header .section {
 }
 
 @media screen and (max-width:500px) {
-  .section-6 img {
+  .video img {
     margin: 0;
     width: 300px;
   }
 }
 
-.section-6 .box {
+.video .box {
   width: 100%;
 }
 
-.section-6 .box span {
+.video .box span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
@@ -630,7 +630,7 @@ header .section {
   color: #43806c;
 }
 
-.section-6 .box h1 {
+.video .box h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -639,7 +639,7 @@ header .section {
   color: #214e41;
 }
 
-.section-6 .box p {
+.video .box p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -648,7 +648,7 @@ header .section {
   color: #757575;
 }
 
-.section-6 .box a {
+.video .box a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -658,7 +658,7 @@ header .section {
   color: #214e41;
 }
 
-.section-10 {
+.employers {
   background-image: url(./img/header2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -667,7 +667,7 @@ header .section {
   display: flex;
 }
 
-.section-10 .box {
+.employers .box {
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -677,7 +677,7 @@ header .section {
 }
 
 @media screen and (max-width:600px) {
-  .section-10 .box {
+  .employers .box {
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -686,19 +686,19 @@ header .section {
     margin: 0;
   }
 
-  .section-7 .box {
+  .proudly-backed-by .box {
     justify-content: space-around;
     margin-top: 115px;
   }
 
-  .section-7 .article img {
+  .proudly-backed-by .article img {
     width: 140px;
     height: 60px;
   }
 
 }
 
-.section-10 span {
+.employers span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -708,7 +708,7 @@ header .section {
   color: #43806c;
 }
 
-.section-10 h1 {
+.employers h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -717,7 +717,7 @@ header .section {
   color: #214e41;
 }
 
-.section-10 p {
+.employers p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -726,7 +726,7 @@ header .section {
   color: #757575;
 }
 
-.section-10 a {
+.employers a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -736,13 +736,13 @@ header .section {
   color: #214e41;
 }
 
-.section-7 {
+.proudly-backed-by {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
 }
 
-.section-7 h1 {
+.proudly-backed-by h1 {
   text-align: center;
   font-family: 'Roboto';
   font-style: normal;
@@ -753,32 +753,32 @@ header .section {
   color: #214E41;
 }
 
-.section-7 .article {
+.proudly-backed-by .article {
   display: flex;
   justify-items: center;
 }
 
-.section-7 .article img {
+.proudly-backed-by .article img {
   width: 140px;
   height: 60px;
 }
 
-.section-7 .box {
+.proudly-backed-by .box {
   justify-content: space-around;
   margin-top: 115px;
 }
 
-.section-7 .box .vector {
+.proudly-backed-by .box .vector {
   font-size: 40px;
   color: #214E41;
   padding-right: 30px;
 }
 
-.section-8 {
+.podcast {
   margin-top: 120px;
 }
 
-.section-8 .box {
+.podcast .box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -786,11 +786,11 @@ header .section {
   margin: 0 auto;
 }
 
-.section-8 img {
+.podcast img {
   width: 100%;
 }
 
-.section-8 h1 {
+.podcast h1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -799,7 +799,7 @@ header .section {
   color: #214E41;
 }
 
-.section-8 p {
+.podcast p {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -809,11 +809,11 @@ header .section {
   color: #43806C;
 }
 
-.section-9 {
+.get-in-touch {
   margin-top: 120px;
 }
 
-.section-9 .box {
+.get-in-touch .box {
   background-color: #E3EEED;
   display: flex;
   justify-content: center;
@@ -822,19 +822,19 @@ header .section {
   max-width: 629px;
 }
 
-.section-9 .img-box img {
+.get-in-touch .img-box img {
   width: 100%;
   height: 100%;
 }
 
-.section-9 .coment {
+.get-in-touch .coment {
   display: flex;
   max-width: 423px;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.section-9 h1 {
+.get-in-touch h1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -843,7 +843,7 @@ header .section {
   color: #214E41;
 }
 
-.section-9 p {
+.get-in-touch p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -852,7 +852,7 @@ header .section {
   color: #214E41;
 }
 
-.section-9 button {
+.get-in-touch button {
   background: #43806C;
   border: 1px solid #43806C;
   border-radius: 6px;
