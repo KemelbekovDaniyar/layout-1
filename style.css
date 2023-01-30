@@ -221,6 +221,7 @@ header button {
   color: white;
   border: 0;
   height: 60px;
+  cursor: pointer;
 }
 
 header .section {
@@ -738,6 +739,7 @@ header .section {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .proudly-backed-by h1 {
@@ -774,6 +776,7 @@ header .section {
 
 .podcast {
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .podcast .box {
@@ -864,7 +867,7 @@ header .section {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
-
+  cursor: pointer;
 }
 
 footer {
