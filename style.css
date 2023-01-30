@@ -811,6 +811,8 @@ header .section {
 
 .get-in-touch {
   margin-top: 120px;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .get-in-touch .box {
